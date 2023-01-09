@@ -60,7 +60,7 @@ header .menu nav .btn h2 {
 }
 #home .textbox .icon i {
   font-size: 45px;
-  color: #dd1212;
+  color: rgb(253, 71, 102);
 }
 #home .textbox h2 {
   font-weight: 500;
@@ -117,9 +117,63 @@ header .menu nav .btn h2 {
 #services {
   background-color: #101010;
 }
+#services .wid {
+  width: 570px;
+}
+#services .box {
+  text-align: center;
+}
 #services .box h3 {
-  font-size: 18px;
+  font-size: 20px;
   background: -webkit-linear-gradient(#2096FE, #FD4766);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#services .box h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 10px 0 20px;
+  color: white;
+}
+#services .box h4 {
+  font-size: 23px;
+  line-height: 1.4;
+  margin: 0 0 50px;
+  color: rgba(198, 201, 216, 0.75);
+}
+#services .textbox {
+  margin: 0 7px 28px 0;
+  padding: 40px 0 40px 30px;
+  background-color: #0c0c0c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#services .textbox .icon {
+  font-size: 45px;
+}
+#services .textbox .red {
+  color: rgb(253, 71, 102);
+}
+#services .textbox .blue {
+  color: #337DFF;
+}
+#services .textbox .green {
+  color: #12d8df;
+}
+#services .textbox .leaf {
+  color: #59C98D;
+}
+#services .textbox .purple {
+  color: #6F41F6;
+}
+#services .textbox h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 25px 0;
+}
+#services .textbox p {
+  color: rgba(198, 201, 216, 0.75);
+  line-height: 1.4;
+  font-size: 23px;
 }/*# sourceMappingURL=style.css.map */
