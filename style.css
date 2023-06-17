@@ -18,6 +18,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 #demo .box .minibox {
   display: flex;
@@ -30,7 +31,7 @@ section {
 }
 #demo .box :hover {
   background-color: white;
-  border-radius: 20px;
+  border-top-left-radius: 100px;
   width: 140px;
   height: 140px;
 }/*# sourceMappingURL=style.css.map */
